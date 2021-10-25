@@ -1,0 +1,12 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "This is master"
+      - curl ifconfig.me.
+      - ifconfig
+# cache:
+#   paths:
+#     - '/root/.m2/**/*'
+#     - '/root/.npm/**/*'
+#     - 'build/**/*'
