@@ -4,7 +4,6 @@ phases:
     commands:
       - echo "This is dev"
       - curl ifconfig.me.
-      - ifconfig
 # cache:
 #   paths:
 #     - '/root/.m2/**/*'
