@@ -4,6 +4,7 @@ phases:
     commands:
       - echo "hotfix1"
       - echo "this is for git merge"
+      - echo "after merge"
       - curl ifconfig.me.
 # cache:
 #   paths:
