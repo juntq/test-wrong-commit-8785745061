@@ -3,8 +3,7 @@ phases:
   build:
     commands:
       - echo "hotfix1"
-      - echo "this is for git merge"
-      - echo "after merge"
+      - echo "set hotfix1 as default branch"
       - curl ifconfig.me.
 # cache:
 #   paths:
