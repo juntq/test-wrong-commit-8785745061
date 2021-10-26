@@ -2,9 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "This is master"
-      - echo "test"
-      - echo "chaning default branch"
+      - echo "hotfix1"
       - curl ifconfig.me.
 # cache:
 #   paths:
