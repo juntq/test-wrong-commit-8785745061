@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "This is dev"
+      - echo "hotfix1"
       - curl ifconfig.me.
 # cache:
 #   paths:
