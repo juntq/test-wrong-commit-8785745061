@@ -4,6 +4,7 @@ phases:
     commands:
       - echo "This is master"
       - echo "test"
+      - echo "chaning default branch"
       - curl ifconfig.me.
 # cache:
 #   paths:
